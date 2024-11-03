@@ -1,0 +1,1 @@
+ C:\\Users\\USER\\Downloads\\SnapSense--AI-Image-generator-main\\SnapSense--AI-Image-generator-main\\.dart_tool\\flutter_build\\d98e8ea251eace9982434fe149048b39\\native_assets.yaml: 
