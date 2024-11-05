@@ -20,10 +20,10 @@ class Routes {
     return PageRouteBuilder(
       pageBuilder: (context, animation, secondaryAnimation) => page,
       transitionsBuilder: (context, animation, secondaryAnimation, child) {
-        const curve = Curves.easeInOut; // Smooth curve for both entry and exit
+        const curve = Curves.easeInOut; 
 
         var slideAnimation = Tween<Offset>(
-          begin: const Offset(0.0, 1.0), // Slide from bottom to top
+          begin: const Offset(0.0, 1.0), 
           end: Offset.zero,
         ).animate(CurvedAnimation(
           parent: animation,
@@ -31,8 +31,8 @@ class Routes {
         ));
 
         var fadeAnimation = Tween<double>(
-          begin: 0.0, // Fade from transparent
-          end: 1.0, // To fully visible
+          begin: 0.0, 
+          end: 1.0, 
         ).animate(CurvedAnimation(
           parent: animation,
           curve: curve,
