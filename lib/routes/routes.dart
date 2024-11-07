@@ -46,9 +46,9 @@ class Routes {
           ),
         );
       },
-      transitionDuration: const Duration(milliseconds: 700), // Smooth speed
+      transitionDuration: const Duration(milliseconds: 700),
       reverseTransitionDuration:
-          const Duration(milliseconds: 700), // Smooth for pop too
+          const Duration(milliseconds: 700), 
     );
   }
 }
